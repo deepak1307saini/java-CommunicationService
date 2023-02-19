@@ -4,7 +4,7 @@ public class EmailCommunicationChannel implements CommunicationChannel {
 
     @Override
     public void sendMessage(String message) {
-        System.out.println("Message = > "+message+"\nBy the medium Email");
+        System.out.println("Message = > "+message+"\tBy the medium Email");
     }
 
     @Override

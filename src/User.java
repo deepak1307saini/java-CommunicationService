@@ -3,6 +3,7 @@ import lombok.ToString;
 
 @Builder
 @ToString
+
 public class User {
     //All final attributes
 
@@ -31,6 +32,11 @@ public class User {
 
     public String getAddress() {
         return address;
+    }
+
+    @Override
+    public String toString() {
+        return  "Name :"+name+", id :"+Id;
     }
 
 }

@@ -12,7 +12,7 @@ public class CommunicationApp {
         preferences = new Preference();
     }
 
-    public void registerUser(User user, List<ChannelType> channelTypes) {
+    public void registerUser(User user, ArrayList<ChannelType> channelTypes) {
         preferences.addPreference(user.getId(),channelTypes);
     }
     public void registerUser(User user){
@@ -41,7 +41,11 @@ public class CommunicationApp {
                 }
             }
 
-            System.out.println(sender.getName()+" sent a message to "+receiver.getName()+" by "+receiverPreferences+ " mediums");
+            System.out.println(sender.getName()+" sent a message to "+receiver.getName()+" by "+receiverPreferences+ " mediums\n\n");
         }
+    }
+
+    public List<ChannelType> getPreferences(User user){
+        return preferences.getPreferences(user);
     }
 }

@@ -1,15 +1,14 @@
 import CommunicationChannel.ChannelType;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
 public class Preference {
 
-       private static HashMap<Long, List<ChannelType>> preferencesData=new HashMap<>();
+       private static HashMap<Long, ArrayList<ChannelType>> preferencesData=new HashMap<>();
 
-       public void addPreference(long userId, List<ChannelType> channelTypes){
+       public void addPreference(long userId, ArrayList<ChannelType> channelTypes){
               preferencesData.put(userId,channelTypes);
        }
 
@@ -17,7 +16,7 @@ public class Preference {
               if (preferencesData.containsKey(user.getId())){
                      preferencesData.get(user.getId()).add(channelType);
               }else {
-                     preferencesData.put(user.getId(), Arrays.asList(channelType));
+                     preferencesData.put(user.getId(), new ArrayList<ChannelType>(){{add(channelType);}});
               }
        }
 

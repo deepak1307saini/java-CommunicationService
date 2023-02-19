@@ -9,6 +9,6 @@ public class CallCommunicationService extends CommunicationService{
 
     @Override
     String display() {
-        return String.format("CommunicationApp Service: Call \t Channel Type: %s", super.communicationChannel.getMedium());
+        return String.format("CommunicationApp Service Channel Type: %s", super.communicationChannel.getMedium());
     }
 }

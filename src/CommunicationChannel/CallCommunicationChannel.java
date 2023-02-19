@@ -4,7 +4,7 @@ public class CallCommunicationChannel implements CommunicationChannel {
 
     @Override
     public void sendMessage(String message) {
-        System.out.println("Message = > "+message+"\nBy the medium Call");
+        System.out.println("Message = > "+message+"\tBy the medium Call");
     }
 
     @Override
