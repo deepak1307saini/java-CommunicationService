@@ -54,5 +54,7 @@ public class TestCase {
         printUsers(user1,user2);
         communicationApp.sendMessage(user1, user2, "How are you?");
         communicationApp.sendMessage(user2,user1,"I'm fine or you?");
+
+
     }
 }

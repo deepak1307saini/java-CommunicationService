@@ -6,9 +6,4 @@ public class WhatsAppCommunicationService extends CommunicationService{
     public WhatsAppCommunicationService() {
         super(ChannelType.WhatsApp);
     }
-
-    @Override
-    String display() {
-        return String.format("CommunicationApp Service Channel Type: %s", super.communicationChannel.getMedium());
-    }
 }

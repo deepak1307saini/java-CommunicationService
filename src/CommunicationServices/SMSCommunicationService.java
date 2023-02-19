@@ -6,9 +6,4 @@ public class SMSCommunicationService extends CommunicationService{
     public SMSCommunicationService () {
         super(ChannelType.SMS);
     }
-
-    @Override
-    String display() {
-        return String.format("CommunicationApp Service Channel Type: %s", super.communicationChannel.getMedium());
-    }
 }

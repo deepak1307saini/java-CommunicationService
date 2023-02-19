@@ -7,8 +7,5 @@ public class SMSCommunicationChannel implements CommunicationChannel {
         System.out.println("Message = > "+message+"\tBy the medium SMS");
     }
 
-    @Override
-    public ChannelType getMedium() {
-        return ChannelType.SMS;
-    }
+
 }

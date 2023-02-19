@@ -5,21 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4adfc5d0-7b8c-406e-b27b-2dabba572fd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-CommunicationService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-CommunicationService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommunicationApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommunicationChannel/CallCommunicationChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationChannel/CallCommunicationChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationChannel/CommunicationChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationChannel/CommunicationChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationChannel/CommunicationChannelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationChannel/CommunicationChannelFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommunicationChannel/EmailCommunicationChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationChannel/EmailCommunicationChannel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommunicationChannel/SMSCommunicationChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationChannel/SMSCommunicationChannel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommunicationChannel/WhatsAppCommunicationChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationChannel/WhatsAppCommunicationChannel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommunicationServices/CallCommunicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationServices/CallCommunicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommunicationServices/CommunicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationServices/CommunicationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommunicationServices/EmailCommunicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationServices/EmailCommunicationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommunicationServices/SMSCommunicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationServices/SMSCommunicationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CommunicationServices/WhatsAppCommunicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommunicationServices/WhatsAppCommunicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Preference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Preference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

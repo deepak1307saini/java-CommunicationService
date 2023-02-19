@@ -7,8 +7,4 @@ public class EmailCommunicationChannel implements CommunicationChannel {
         System.out.println("Message = > "+message+"\tBy the medium Email");
     }
 
-    @Override
-    public ChannelType getMedium() {
-        return ChannelType.Email;
-    }
 }

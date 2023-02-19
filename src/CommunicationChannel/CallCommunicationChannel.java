@@ -6,9 +6,4 @@ public class CallCommunicationChannel implements CommunicationChannel {
     public void sendMessage(String message) {
         System.out.println("Message = > "+message+"\tBy the medium Call");
     }
-
-    @Override
-    public ChannelType getMedium() {
-        return ChannelType.Call;
-    }
 }

@@ -4,7 +4,7 @@ import CommunicationChannel.ChannelType;
 import CommunicationChannel.CommunicationChannel;
 import CommunicationChannel.CommunicationChannelFactory;
 
-public abstract class CommunicationService {
+public class CommunicationService {
     protected CommunicationChannel communicationChannel;
 
     protected CommunicationService(ChannelType channelType) {
@@ -15,5 +15,5 @@ public abstract class CommunicationService {
         this.communicationChannel.sendMessage(message);
     }
 
-    abstract String display();
+
 }
